@@ -16,6 +16,7 @@ const project = new AwsCdkTypeScriptApp({
   deps: [
     'cdk-efs-assets',
   ],
+  dependabot: false,
 });
 
 const execute = ['venv', 'cdk.context.json'];
