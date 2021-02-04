@@ -18,6 +18,6 @@ const project = new AwsCdkTypeScriptApp({
   ],
 });
 
-const execute = ['venv'];
+const execute = ['venv', 'cdk.context.json'];
 project.gitignore.exclude(...execute);
 project.synth();
