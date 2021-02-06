@@ -9,6 +9,7 @@
 .cache
 .cdk.staging/
 .eslintcache
+.github/dependabot.yml
 .nyc_output
 .parcel-cache/
 .yarn-integrity

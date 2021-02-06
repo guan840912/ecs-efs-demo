@@ -19,6 +19,6 @@ const project = new AwsCdkTypeScriptApp({
   dependabot: false,
 });
 
-const execute = ['venv', 'cdk.context.json'];
+const execute = ['venv', 'cdk.context.json', '.github/dependabot.yml'];
 project.gitignore.exclude(...execute);
 project.synth();
