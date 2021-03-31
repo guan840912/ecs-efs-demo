@@ -28,6 +28,7 @@ export class MyStack extends Stack {
         uid: '1001',
         gid: '1001',
       },
+      vpc,
       syncSource: SyncSource.github({
         vpc,
         repository: 'https://github.com/guan840912/guan840912.git',
